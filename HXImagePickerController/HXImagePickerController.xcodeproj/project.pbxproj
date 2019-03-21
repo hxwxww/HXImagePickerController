@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3648D2223BB730005CA3E9 /* HXImageClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3648D1223BB730005CA3E9 /* HXImageClipViewController.swift */; };
+		AA3A1E39223A8486004A2079 /* HXPreviewThumbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A1E38223A8486004A2079 /* HXPreviewThumbCell.swift */; };
+		AA3DA87422408D970068AC39 /* HXImageClipScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA87322408D970068AC39 /* HXImageClipScrollView.swift */; };
+		AA3DA8782240C0C30068AC39 /* HXImageClipResizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA8772240C0C30068AC39 /* HXImageClipResizeView.swift */; };
+		AA77207B223A3CCF000D0B59 /* HXImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77207A223A3CCF000D0B59 /* HXImagePreviewViewController.swift */; };
+		AA77207D223A3DF5000D0B59 /* HXPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77207C223A3DF5000D0B59 /* HXPreviewCell.swift */; };
+		AA77207F223A4D55000D0B59 /* HXImageNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77207E223A4D55000D0B59 /* HXImageNavigationView.swift */; };
+		AA8ED0D02227B7DF00D70EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0CF2227B7DF00D70EA9 /* AppDelegate.swift */; };
+		AA8ED0D22227B7DF00D70EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0D12227B7DF00D70EA9 /* ViewController.swift */; };
+		AA8ED0D52227B7DF00D70EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8ED0D32227B7DF00D70EA9 /* Main.storyboard */; };
+		AA8ED0D72227B7E000D70EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8ED0D62227B7E000D70EA9 /* Assets.xcassets */; };
+		AA8ED0DA2227B7E000D70EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8ED0D82227B7E000D70EA9 /* LaunchScreen.storyboard */; };
+		AA8ED0E22227B91C00D70EA9 /* HXImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0E12227B91C00D70EA9 /* HXImagePickerController.swift */; };
+		AA8ED0E52227BA9300D70EA9 /* HXAlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0E42227BA9300D70EA9 /* HXAlbumListViewController.swift */; };
+		AA8ED0E72227BA9D00D70EA9 /* HXImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0E62227BA9D00D70EA9 /* HXImageListViewController.swift */; };
+		AA8ED0E92227BC3700D70EA9 /* HXPhotoImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0E82227BC3700D70EA9 /* HXPhotoImageManager.swift */; };
+		AA8ED0EB2227C45E00D70EA9 /* HXAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0EA2227C45E00D70EA9 /* HXAlbumModel.swift */; };
+		AA8ED0ED2227C61200D70EA9 /* HXImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0EC2227C61200D70EA9 /* HXImageModel.swift */; };
+		AA8ED0EF2227CB5300D70EA9 /* HXAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0EE2227CB5300D70EA9 /* HXAlbumCell.swift */; };
+		AA8ED0F12227CBE000D70EA9 /* HXReuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0F02227CBE000D70EA9 /* HXReuseable.swift */; };
+		AA8ED0F32227CF9600D70EA9 /* HXImagePickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0F22227CF9600D70EA9 /* HXImagePickerConfig.swift */; };
+		AA8ED0F52227D15400D70EA9 /* HXImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0F42227D15400D70EA9 /* HXImageCell.swift */; };
+		AA8ED0F72227D62100D70EA9 /* HXSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0F62227D62100D70EA9 /* HXSelectButton.swift */; };
+		AA8ED0F92227DDD800D70EA9 /* HXImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA8ED0F82227DDD800D70EA9 /* HXImagePickerController.bundle */; };
+		AA8ED0FB2227E22900D70EA9 /* HXImageToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED0FA2227E22900D70EA9 /* HXImageToolView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3648D1223BB730005CA3E9 /* HXImageClipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageClipViewController.swift; sourceTree = "<group>"; };
+		AA3A1E38223A8486004A2079 /* HXPreviewThumbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXPreviewThumbCell.swift; sourceTree = "<group>"; };
+		AA3DA87322408D970068AC39 /* HXImageClipScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageClipScrollView.swift; sourceTree = "<group>"; };
+		AA3DA8772240C0C30068AC39 /* HXImageClipResizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageClipResizeView.swift; sourceTree = "<group>"; };
+		AA77207A223A3CCF000D0B59 /* HXImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImagePreviewViewController.swift; sourceTree = "<group>"; };
+		AA77207C223A3DF5000D0B59 /* HXPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXPreviewCell.swift; sourceTree = "<group>"; };
+		AA77207E223A4D55000D0B59 /* HXImageNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageNavigationView.swift; sourceTree = "<group>"; };
+		AA8ED0CC2227B7DF00D70EA9 /* HXImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8ED0CF2227B7DF00D70EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8ED0D12227B7DF00D70EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8ED0D42227B7DF00D70EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8ED0D62227B7E000D70EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8ED0D92227B7E000D70EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8ED0DB2227B7E000D70EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8ED0E12227B91C00D70EA9 /* HXImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImagePickerController.swift; sourceTree = "<group>"; };
+		AA8ED0E42227BA9300D70EA9 /* HXAlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXAlbumListViewController.swift; sourceTree = "<group>"; };
+		AA8ED0E62227BA9D00D70EA9 /* HXImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageListViewController.swift; sourceTree = "<group>"; };
+		AA8ED0E82227BC3700D70EA9 /* HXPhotoImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXPhotoImageManager.swift; sourceTree = "<group>"; };
+		AA8ED0EA2227C45E00D70EA9 /* HXAlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXAlbumModel.swift; sourceTree = "<group>"; };
+		AA8ED0EC2227C61200D70EA9 /* HXImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageModel.swift; sourceTree = "<group>"; };
+		AA8ED0EE2227CB5300D70EA9 /* HXAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXAlbumCell.swift; sourceTree = "<group>"; };
+		AA8ED0F02227CBE000D70EA9 /* HXReuseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXReuseable.swift; sourceTree = "<group>"; };
+		AA8ED0F22227CF9600D70EA9 /* HXImagePickerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImagePickerConfig.swift; sourceTree = "<group>"; };
+		AA8ED0F42227D15400D70EA9 /* HXImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageCell.swift; sourceTree = "<group>"; };
+		AA8ED0F62227D62100D70EA9 /* HXSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXSelectButton.swift; sourceTree = "<group>"; };
+		AA8ED0F82227DDD800D70EA9 /* HXImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXImagePickerController.bundle; sourceTree = "<group>"; };
+		AA8ED0FA2227E22900D70EA9 /* HXImageToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXImageToolView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8ED0C92227B7DF00D70EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8ED0C32227B7DE00D70EA9 = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0CE2227B7DF00D70EA9 /* HXImagePickerController */,
+				AA8ED0CD2227B7DF00D70EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8ED0CD2227B7DF00D70EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0CC2227B7DF00D70EA9 /* HXImagePickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8ED0CE2227B7DF00D70EA9 /* HXImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0E32227B92300D70EA9 /* HXImagePickerController */,
+				AA8ED0CF2227B7DF00D70EA9 /* AppDelegate.swift */,
+				AA8ED0D12227B7DF00D70EA9 /* ViewController.swift */,
+				AA8ED0D32227B7DF00D70EA9 /* Main.storyboard */,
+				AA8ED0D62227B7E000D70EA9 /* Assets.xcassets */,
+				AA8ED0D82227B7E000D70EA9 /* LaunchScreen.storyboard */,
+				AA8ED0DB2227B7E000D70EA9 /* Info.plist */,
+			);
+			path = HXImagePickerController;
+			sourceTree = "<group>";
+		};
+		AA8ED0E32227B92300D70EA9 /* HXImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0F82227DDD800D70EA9 /* HXImagePickerController.bundle */,
+				AA9D2B322228115E00E6E35D /* Controllers */,
+				AA9D2B332228116C00E6E35D /* Views */,
+				AA9D2B342228117A00E6E35D /* Models */,
+				AA9D2B352228118200E6E35D /* Helpers */,
+			);
+			path = HXImagePickerController;
+			sourceTree = "<group>";
+		};
+		AA9D2B322228115E00E6E35D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0E12227B91C00D70EA9 /* HXImagePickerController.swift */,
+				AA8ED0E42227BA9300D70EA9 /* HXAlbumListViewController.swift */,
+				AA8ED0E62227BA9D00D70EA9 /* HXImageListViewController.swift */,
+				AA77207A223A3CCF000D0B59 /* HXImagePreviewViewController.swift */,
+				AA3648D1223BB730005CA3E9 /* HXImageClipViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA9D2B332228116C00E6E35D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0EE2227CB5300D70EA9 /* HXAlbumCell.swift */,
+				AA8ED0F42227D15400D70EA9 /* HXImageCell.swift */,
+				AA77207C223A3DF5000D0B59 /* HXPreviewCell.swift */,
+				AA3A1E38223A8486004A2079 /* HXPreviewThumbCell.swift */,
+				AA8ED0FA2227E22900D70EA9 /* HXImageToolView.swift */,
+				AA77207E223A4D55000D0B59 /* HXImageNavigationView.swift */,
+				AA8ED0F62227D62100D70EA9 /* HXSelectButton.swift */,
+				AA3DA87322408D970068AC39 /* HXImageClipScrollView.swift */,
+				AA3DA8772240C0C30068AC39 /* HXImageClipResizeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA9D2B342228117A00E6E35D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0EA2227C45E00D70EA9 /* HXAlbumModel.swift */,
+				AA8ED0EC2227C61200D70EA9 /* HXImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA9D2B352228118200E6E35D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED0E82227BC3700D70EA9 /* HXPhotoImageManager.swift */,
+				AA8ED0F02227CBE000D70EA9 /* HXReuseable.swift */,
+				AA8ED0F22227CF9600D70EA9 /* HXImagePickerConfig.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8ED0CB2227B7DF00D70EA9 /* HXImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8ED0DE2227B7E000D70EA9 /* Build configuration list for PBXNativeTarget "HXImagePickerController" */;
+			buildPhases = (
+				AA8ED0C82227B7DF00D70EA9 /* Sources */,
+				AA8ED0C92227B7DF00D70EA9 /* Frameworks */,
+				AA8ED0CA2227B7DF00D70EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXImagePickerController;
+			productName = HXImagePickerController;
+			productReference = AA8ED0CC2227B7DF00D70EA9 /* HXImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8ED0C42227B7DE00D70EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WHX;
+				TargetAttributes = {
+					AA8ED0CB2227B7DF00D70EA9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AA8ED0C72227B7DE00D70EA9 /* Build configuration list for PBXProject "HXImagePickerController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8ED0C32227B7DE00D70EA9;
+			productRefGroup = AA8ED0CD2227B7DF00D70EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8ED0CB2227B7DF00D70EA9 /* HXImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8ED0CA2227B7DF00D70EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8ED0DA2227B7E000D70EA9 /* LaunchScreen.storyboard in Resources */,
+				AA8ED0D72227B7E000D70EA9 /* Assets.xcassets in Resources */,
+				AA8ED0D52227B7DF00D70EA9 /* Main.storyboard in Resources */,
+				AA8ED0F92227DDD800D70EA9 /* HXImagePickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8ED0C82227B7DF00D70EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA77207D223A3DF5000D0B59 /* HXPreviewCell.swift in Sources */,
+				AA8ED0E72227BA9D00D70EA9 /* HXImageListViewController.swift in Sources */,
+				AA8ED0F32227CF9600D70EA9 /* HXImagePickerConfig.swift in Sources */,
+				AA77207B223A3CCF000D0B59 /* HXImagePreviewViewController.swift in Sources */,
+				AA8ED0F72227D62100D70EA9 /* HXSelectButton.swift in Sources */,
+				AA3648D2223BB730005CA3E9 /* HXImageClipViewController.swift in Sources */,
+				AA8ED0ED2227C61200D70EA9 /* HXImageModel.swift in Sources */,
+				AA8ED0E22227B91C00D70EA9 /* HXImagePickerController.swift in Sources */,
+				AA8ED0E92227BC3700D70EA9 /* HXPhotoImageManager.swift in Sources */,
+				AA8ED0F12227CBE000D70EA9 /* HXReuseable.swift in Sources */,
+				AA3DA8782240C0C30068AC39 /* HXImageClipResizeView.swift in Sources */,
+				AA8ED0D22227B7DF00D70EA9 /* ViewController.swift in Sources */,
+				AA8ED0F52227D15400D70EA9 /* HXImageCell.swift in Sources */,
+				AA8ED0EF2227CB5300D70EA9 /* HXAlbumCell.swift in Sources */,
+				AA3DA87422408D970068AC39 /* HXImageClipScrollView.swift in Sources */,
+				AA8ED0FB2227E22900D70EA9 /* HXImageToolView.swift in Sources */,
+				AA3A1E39223A8486004A2079 /* HXPreviewThumbCell.swift in Sources */,
+				AA8ED0EB2227C45E00D70EA9 /* HXAlbumModel.swift in Sources */,
+				AA8ED0E52227BA9300D70EA9 /* HXAlbumListViewController.swift in Sources */,
+				AA8ED0D02227B7DF00D70EA9 /* AppDelegate.swift in Sources */,
+				AA77207F223A4D55000D0B59 /* HXImageNavigationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8ED0D32227B7DF00D70EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8ED0D42227B7DF00D70EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8ED0D82227B7E000D70EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8ED0D92227B7E000D70EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8ED0DC2227B7E000D70EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8ED0DD2227B7E000D70EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8ED0DF2227B7E000D70EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L8TDBU7CV;
+				INFOPLIST_FILE = HXImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXImagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8ED0E02227B7E000D70EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L8TDBU7CV;
+				INFOPLIST_FILE = HXImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXImagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8ED0C72227B7DE00D70EA9 /* Build configuration list for PBXProject "HXImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8ED0DC2227B7E000D70EA9 /* Debug */,
+				AA8ED0DD2227B7E000D70EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8ED0DE2227B7E000D70EA9 /* Build configuration list for PBXNativeTarget "HXImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8ED0DF2227B7E000D70EA9 /* Debug */,
+				AA8ED0E02227B7E000D70EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8ED0C42227B7DE00D70EA9 /* Project object */;
+}
