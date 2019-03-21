@@ -148,6 +148,10 @@ class HXImageClipResizeView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    deinit {
+        removeTimer()
+        HXLog("HXImageClipResizeView deinit")
+    }
 }
 
 // MARK: -  Private Methods
