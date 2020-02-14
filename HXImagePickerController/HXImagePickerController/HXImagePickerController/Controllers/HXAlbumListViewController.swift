@@ -48,11 +48,12 @@ class HXAlbumListViewController: UIViewController {
         HXPhotoImageManager.getPhotoLibraryAuthorization { [weak self] (success) in
             guard let `self` = self else { return }
             if success {
+                let mediaTypes = self.pickerController?.mediaTypes ?? [.image, .video]
                 DispatchQueue.global().async {
                     let photoAlbums = HXPhotoImageManager.getPhotoAlbums()
                     var albumModels = [HXAlbumModel]()
                     for assetCollection in photoAlbums {
-                        let albumModel = HXAlbumModel(assetCollection, mediaTypes: self.pickerController?.mediaTypes ?? [.image, .video])
+                        let albumModel = HXAlbumModel(assetCollection, mediaTypes: mediaTypes)
                         albumModels.append(albumModel)
                     }
                     DispatchQueue.main.async {

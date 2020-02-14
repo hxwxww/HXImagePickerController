@@ -113,9 +113,10 @@ class HXImageListViewController: UIViewController {
         HXPhotoImageManager.getPhotoLibraryAuthorization { [weak self] (success) in
             guard let `self` = self else { return }
             if success {
+                let mediaTypes = self.pickerController?.mediaTypes ?? [.image, .video]
                 DispatchQueue.global().async {
                     let albums = HXPhotoImageManager.getPhotoAlbums(with: .smartAlbum, filterEmpty: true)
-                    let albumModel = HXAlbumModel(albums[0], mediaTypes: self.pickerController?.mediaTypes ?? [.image, .video])
+                    let albumModel = HXAlbumModel(albums[0], mediaTypes: mediaTypes)
                     DispatchQueue.main.async {
                         self.albumModel = albumModel
                     }

@@ -32,8 +32,10 @@ class ViewController: UIViewController {
 //        let imagePircker = HXImagePickerController(hasAlbumList: false)
         let imagePircker = HXImagePickerController()
 //        imagePircker.mediaTypes = [.image]
+        imagePircker.maxSelectCount = 1
         imagePircker.mainTintColor = UIColor(red: 249 / 255.0, green: 60 / 255.0, blue: 83 / 255.0, alpha: 1)
         imagePircker.hxip_delegate = self
+        imagePircker.modalPresentationStyle = .fullScreen
         present(imagePircker, animated: true, completion: nil)
     }
     

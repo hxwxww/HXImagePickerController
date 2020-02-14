@@ -6,7 +6,7 @@
 //  Copyright © 2019年 WHX. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import Photos
 
 class HXImageModel: NSObject {
